@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+    --primary-color: #4338CA;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.list-non-bullet {
+    list-style: none;
+    margin: 0px;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem; 
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    color: white;
+    padding: 1rem 1rem;
+}
+.navigation .nav-brand-image {
+    width: 80px;
+    display: inline;
+    padding: 0rem 1rem;
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.hero {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.hero .hero-image {
+    padding-top: 2rem;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.container {
+    padding: 0rem 2rem;
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section {
+    padding: 1rem;
+}
+.off-white {
+    background-color: #E5E7EB;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+.link-secondary {
+    padding: 0rem 0.5rem;
+    border: 2px solid white;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.image {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+}
