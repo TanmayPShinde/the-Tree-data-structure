@@ -36,7 +36,7 @@
     </section>
     
 
-    <section id="general-tree-section" class="section off-white" style="transition: visibility 1s, opacity 1s; visibility: hidden; opacity: 0;">
+    <section class="section off-white" style="transition: visibility 1s, opacity 1s; visibility: hidden; opacity: 0;">
         <div class="container container-center">
             <h2>general tree</h2>
             <p>File organization in operating systems use general trees to store directories and files. The leaf nodes are files. Internal nodes can be directories and sub-directories.</p>
@@ -120,9 +120,14 @@
     </footer>
 
     <script>
+      //get a reference to all the sections
       var allSections = document.querySelectorAll(".section");
       var windowHeight = window.innerHeight;
+
+      allSections = Array.from(allSections);
+
       window.addEventListener("scroll", function scrollHandler() {
+        //for all the sections at each window scroll event
         for (let section in allSections) {
           var element = allSections[section];
           var domRectObj = element.getBoundingClientRect();
