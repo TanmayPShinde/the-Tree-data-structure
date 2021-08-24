@@ -34,7 +34,8 @@ body {
 }
 
 .hero {
-    padding: 4rem 0rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
 }
 .hero .hero-image {
     padding-top: 2rem;
