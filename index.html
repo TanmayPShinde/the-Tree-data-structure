@@ -89,7 +89,7 @@
                     </div>                                                                                                       <!--blog content-->
                   </div>                                                                                                         <!--inner-->
                 </div>
-                <p style="">author: Mohammad Anas</p>                                                                                                         <!--ct blog col sm col md 4-->
+                <p>author: Mohammad Anas</p>                                                                                                         <!--ct blog col sm col md 4-->
                 <div class="ct-blog col-sm-6 col-md-4">
                   <div class="inner">
                     <div class="fauxcrop">
@@ -133,7 +133,7 @@
           var domRectObj = element.getBoundingClientRect();
           var top = domRectObj.top;
           var bottom = domRectObj.bottom;
-          if ((top<windowHeight/2 && top>0) || (bottom>windowHeight/2 && bottom<windowHeight) || (top<0 && bottom>windowHeight)) {
+          if ((top<2*windowHeight/3 && top>0) || (bottom>windowHeight/3 && bottom<windowHeight) || (top<0 && bottom>windowHeight)) {
             element.style.opacity = 1;
             element.style.visibility = "visible";
           }
