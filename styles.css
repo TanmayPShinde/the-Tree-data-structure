@@ -80,6 +80,8 @@ body {
     border-radius: 0.5rem;
     font-weight: bold;
 }
+
+/* HOVER EFFCT*/
 nav a:hover {
     padding: 0rem 0.5rem;
     border: 2px solid white;
